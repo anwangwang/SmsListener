@@ -12,7 +12,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate: onCreate执行了");
 
     }
 
@@ -20,13 +19,11 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
 
-        Log.d(TAG, "onResume: onResume方法被执行了 ");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
-        Log.d(TAG, "onDestroy: onDestroy方法被执行了");
     }
 }
